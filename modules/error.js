@@ -1,15 +1,16 @@
 define([], function() {
-    function Error(text) {
-        this.text = text;
+    function Error() {
     };
 
-    Error.prototype.render = function() {
-        return $$({
-            model: this,
+    Error.prototype.onerror = function(exception) {
+        $$.document.append($$({
+            model: exception.message,
             view: {
-                format: '<div class="error" data-bind="text" /> '
+                format: '<div class="alert alert-error alert-dismissable" data-bind="text">\
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>\
+                         </div>'
             }
-        });
+        }));
     };
 
     return Error;

@@ -1,8 +1,19 @@
 define({
+    $plugins: [
+        { module: 'wire/aop' }
+    ],
+    error: {
+      create: {
+          module:'modules/error'
+      }
+    },
     container: document.getElementById('container'),
     interval: {
         create: {
             module: 'modules/interval'
+        },
+        afterThrowing: {
+            checkValidity: 'error.onerror'
         }
     },
     classicOperations: {

@@ -26,7 +26,7 @@ define([], function () {
 
     var calculateBlockProto = $$({
         view: {
-            format: '<table><tbody><tr><td colspan="4"><input type="text" data-bind="input" /> </td></tr></tbody></table>'
+            format: '<table><tbody><tr><td colspan="4"><input type="text" data-bind="input" placeholder="[number, number]"/> </td></tr></tbody></table>'
         },
         style: '& input { width: 100%; }'
     });
@@ -63,6 +63,14 @@ define([], function () {
             divide = $$(cell, {model: {glyph: '/'}, action: setOperation }),
             lbrace = $$(cell, {model: {glyph: '['}, action: appendCharacter }),
             rbrace = $$(cell, {model: {glyph: ']'}, action: appendCharacter }),
+            bsp = $$(cell, {model: {glyph: '\u2190'}, action: function() {
+                calculator.input = calculator.input.substring(0, calculator.input.length - 1);
+                calculateBlock.controller.update();
+            }}),
+            clr = $$(cell, {model: {glyph: 'C'}, action: function() {
+                calculator.input = '';
+                calculateBlock.controller.update();
+            }}),
             comma = $$(cell, {model: {glyph: ','}, action: appendCharacter}),
             decimal = $$(cell, {model: {glyph: '.'}, action: appendCharacter}),
             evaluate = $$(cell, {model: {glyph: '='}, action: function() {
@@ -74,6 +82,7 @@ define([], function () {
         var row1 = $$(cellGroup);
         row1.append(rbrace);
         row1.append(lbrace);
+        row1.append(bsp);
         row1.append(minus);
         var row2 = $$(cellGroup);
         row2.append(numbers[7]);
@@ -95,12 +104,15 @@ define([], function () {
         row5.append(numbers[0]);
         row5.append(comma);
         row5.append(evaluate);
+        var row6 = $$(cellGroup);
+        row6.append(clr);
 
         calculateBlock.append(row1, 'tbody');
         calculateBlock.append(row2, 'tbody');
         calculateBlock.append(row3, 'tbody');
         calculateBlock.append(row4, 'tbody');
         calculateBlock.append(row5, 'tbody');
+        calculateBlock.append(row6, 'tbody');
 
         $$.document.append(calculateBlock);
     }

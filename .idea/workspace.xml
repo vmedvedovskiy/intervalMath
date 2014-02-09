@@ -26,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="6" selection-start="493" selection-end="493" vertical-scroll-proportion="-0.0" vertical-offset="187" max-vertical-offset="340">
+            <state line="11" column="6" selection-start="493" selection-end="493" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="340">
               <folding />
             </state>
           </provider>
@@ -44,37 +44,16 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+            <state line="14" column="21" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="classic.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/arithmetic/classic.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="10" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-              <folding>
-                <marker date="1391965425313" expanded="true" signature="267:1336" placeholder="{...}" />
-                <marker date="1391965425313" expanded="true" signature="358:1302" placeholder="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="interval.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="interval.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/modules/interval.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="58" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="calculateBlock.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modules/calculateBlock.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="31" selection-start="2564" selection-end="2564" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="1938">
+            <state line="8" column="75" selection-start="299" selection-end="299" vertical-scroll-proportion="0.15525115" vertical-offset="0" max-vertical-offset="876">
               <folding />
             </state>
           </provider>
@@ -83,10 +62,8 @@
       <file leaf-file-name="calculator.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/calculator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="47" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <folding>
-                <element signature="e#0#40#0" expanded="false" />
-              </folding>
+            <state line="29" column="72" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,11 +77,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="error.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="error.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/modules/error.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="5" selection-start="289" selection-end="289" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="876">
-              <folding />
+            <state line="6" column="36" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+              <folding>
+                <marker date="1391976544686" expanded="true" signature="287:408" placeholder="..." />
+                <marker date="1391976544686" expanded="true" signature="287:437" placeholder="..." />
+                <marker date="1391976544686" expanded="true" signature="287:442" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pubsub.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wire/dojo/pubsub.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1853">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="aop.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/wire/aop.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="224" column="60" selection-start="6089" selection-end="6089" vertical-scroll-proportion="0.0" vertical-offset="3068" max-vertical-offset="4454">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -135,11 +138,12 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/modules/memory.js" />
         <option value="$PROJECT_DIR$/modules/arithmetic/classic.js" />
-        <option value="$PROJECT_DIR$/modules/main.js" />
         <option value="$PROJECT_DIR$/styles.css" />
         <option value="$PROJECT_DIR$/modules/calculator.js" />
-        <option value="$PROJECT_DIR$/modules/interval.js" />
         <option value="$PROJECT_DIR$/modules/calculateBlock.js" />
+        <option value="$PROJECT_DIR$/modules/error.js" />
+        <option value="$PROJECT_DIR$/modules/main.js" />
+        <option value="$PROJECT_DIR$/modules/interval.js" />
       </list>
     </option>
   </component>
@@ -175,7 +179,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -190,7 +193,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IntervalMathCalc" />
+              <option name="myItemId" value="intervalMath" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,7 +203,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="IntervalMathCalc" />
+              <option name="myItemId" value="intervalMath" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -208,8 +211,23 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IntervalMathCalc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="intervalMath" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,6 +236,7 @@
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -232,6 +251,14 @@
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -242,23 +269,15 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -343,20 +362,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modules/interval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="33" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/calculateBlock.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="313" selection-end="313" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="15" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="340">
@@ -367,7 +372,11 @@
     <entry file="file://$PROJECT_DIR$/modules/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="41" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="374">
-          <folding />
+          <folding>
+            <marker date="1391976544686" expanded="true" signature="287:408" placeholder="..." />
+            <marker date="1391976544686" expanded="true" signature="287:437" placeholder="..." />
+            <marker date="1391976544686" expanded="true" signature="287:442" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -416,7 +425,11 @@
     <entry file="file://$PROJECT_DIR$/modules/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="41" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="374">
-          <folding />
+          <folding>
+            <marker date="1391976544686" expanded="true" signature="287:408" placeholder="..." />
+            <marker date="1391976544686" expanded="true" signature="287:437" placeholder="..." />
+            <marker date="1391976544686" expanded="true" signature="287:442" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -465,7 +478,11 @@
     <entry file="file://$PROJECT_DIR$/modules/error.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="41" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="374">
-          <folding />
+          <folding>
+            <marker date="1391976544686" expanded="true" signature="287:408" placeholder="..." />
+            <marker date="1391976544686" expanded="true" signature="287:437" placeholder="..." />
+            <marker date="1391976544686" expanded="true" signature="287:442" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,49 +659,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/arithmetic/classic.js">
+    <entry file="file://$PROJECT_DIR$/modules/calculator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding>
-            <marker date="1391965425313" expanded="true" signature="267:1336" placeholder="{...}" />
-            <marker date="1391965425313" expanded="true" signature="358:1302" placeholder="{...}" />
-          </folding>
+        <state line="29" column="72" selection-start="852" selection-end="852" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/calculateBlock.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="31" selection-start="2564" selection-end="2564" vertical-scroll-proportion="0.0" vertical-offset="1062" max-vertical-offset="1938">
+        <state line="114" column="34" selection-start="3901" selection-end="3901" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2142">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modules/calculator.js">
+    <entry file="file://$PROJECT_DIR$/modules/arithmetic/classic.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/interval.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="58" selection-start="1286" selection-end="1286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+        <state line="24" column="10" selection-start="892" selection-end="892" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="548" selection-end="548" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+        <state line="14" column="21" selection-start="298" selection-end="298" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/modules/error.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="5" selection-start="289" selection-end="289" vertical-scroll-proportion="0.23287672" vertical-offset="0" max-vertical-offset="876">
+        <state line="6" column="36" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <folding>
+            <marker date="1391976544686" expanded="true" signature="287:408" placeholder="..." />
+            <marker date="1391976544686" expanded="true" signature="287:437" placeholder="..." />
+            <marker date="1391976544686" expanded="true" signature="287:442" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wire/dojo/pubsub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1853">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/wire/aop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="224" column="60" selection-start="6089" selection-end="6089" vertical-scroll-proportion="0.0" vertical-offset="3068" max-vertical-offset="4454">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/interval.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="75" selection-start="299" selection-end="299" vertical-scroll-proportion="0.15525115" vertical-offset="0" max-vertical-offset="876">
           <folding />
         </state>
       </provider>
