@@ -1,16 +1,17 @@
 /**
  * Created by react on 05.02.14.
  */
-define([], function () {
+define(['modules/error'], function (error) {
     var intervalRegexp = /\[([-+]?[0-9]*\.?[0-9]+)\,([-+]?[0-9]*\.?[0-9]+)\]/;
 
     var parse = function(string) {
         if(!intervalRegexp.test(string)) {
-            throw new Error("Input value " + string + " is not an interval.");
+            error.onerror(new Error("Input value " + string + " is not an interval."));
+            return;
         }
 
         var interval = string.match(intervalRegexp);
-        return [interval[0], interval[1]];
+        return [parseFloat(interval[1]), parseFloat(interval[2])];
     };
 
 
@@ -26,19 +27,19 @@ define([], function () {
             right = arguments[1];
         }
 
-        this.checkValidity(left, right);
+        // this.checkValidity(left, right);
         this.left = left || 0;
         this.right = right || 0;
     };
 
     Interval.prototype.checkValidity = function(left, right) {
         if (right < left) {
-            throw new Error("Left bound must be less then right bound");
+            error.onerror(Error("Left bound must be less then right bound"));
         }
     }
 
     Interval.prototype.toString = function () {
-        return '[' + [this.left, this.right].join() + ']';
+        return '[' + [this.left.toFixed(2), this.right.toFixed(2)].join() + ']';
     };
 
     return Interval;

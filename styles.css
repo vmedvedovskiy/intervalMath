@@ -1,5 +1,9 @@
-.calcBtn {
-    display: table-cell !important;
+td.calcBtn {
+    display: table-cell;
     width: 1.5em;
     height: 1.5em;
+}
+
+#container {
+    width: 11em;
 }

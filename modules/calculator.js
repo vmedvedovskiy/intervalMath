@@ -1,7 +1,7 @@
 /**
  * Created by react on 09.02.14.
  */
-define([], function() {
+define(['modules/error'], function(error) {
 
     var operand;
     function Calculator(operandCtor, operations) {
@@ -22,9 +22,13 @@ define([], function() {
         this.input = '';
     };
 
+    Calculator.prototype.setOperationsSet = function(operations) {
+        this.operations = operations.operations;
+    }
+
     Calculator.prototype.evaluate = function() {
         if(this.stack.length !== 2) {
-            throw new Error('only two operands are allowed');
+            error.onerror(Error('only two operands are allowed'));
         }
 
         this.input = this.selectedOperation(this.stack[0], this.stack[1]).toString();

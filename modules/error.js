@@ -1,17 +1,33 @@
 define([], function() {
+
+    var obj = $$({
+        model: {
+            text: ''
+        },
+        view: {
+            format: '<div class="alert alert-danger" data-bind="text"></div>'
+        },
+        controller: {
+            'click &': function() {
+                this.view.$().hide();
+            }
+        }
+    });
+
     function Error() {
+
     };
 
     Error.prototype.onerror = function(exception) {
-        $$.document.append($$({
-            model: exception.message,
-            view: {
-                format: '<div class="alert alert-error alert-dismissable" data-bind="text">\
-                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>\
-                         </div>'
-            }
-        }));
+        obj.model.set({text: exception.message});
+        if(!this.hasAppended) {
+            // TODO гавнокод. отрефакторить когда будет время.
+            $('#error').append(obj.view.$());
+            this.hasAppened = true;
+        }
+
+        obj.view.$().show();
     };
 
-    return Error;
+    return new Error();
 });

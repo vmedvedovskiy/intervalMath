@@ -31,7 +31,7 @@ define([], function () {
         style: '& input { width: 100%; }'
     });
 
-    function calculateView(calculator) {
+    function calculateView(calculator, container) {
         var calculateBlock = $$(calculateBlockProto, {
             controller: {
                 update: function() {
@@ -114,7 +114,8 @@ define([], function () {
         calculateBlock.append(row5, 'tbody');
         calculateBlock.append(row6, 'tbody');
 
-        $$.document.append(calculateBlock);
+        // TODO гавнокод. отрефакторить когда будет время.
+        $(container).append(calculateBlock.view.$());
     }
 
     return calculateView;

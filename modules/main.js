@@ -2,23 +2,30 @@ define({
     $plugins: [
         { module: 'wire/aop' }
     ],
-    error: {
-      create: {
-          module:'modules/error'
-      }
+    calcBlock: document.getElementById('calculator'),
+    opsBlock: document.getElementById('arithmetic'),
+    operationsSelector: {
+        create: {
+            module: 'modules/operationsSelector',
+            args: [[{$ref: 'classicOperations'}, {$ref: 'kaucher'}], {$ref: 'opsBlock'}]
+        },
+        afterReturning: {
+            selectOperations: 'calculator.setOperationsSet'
+        }
     },
-    container: document.getElementById('container'),
     interval: {
         create: {
             module: 'modules/interval'
-        },
-        afterThrowing: {
-            checkValidity: 'error.onerror'
         }
     },
     classicOperations: {
         create: {
             module: 'modules/arithmetic/classic'
+        }
+    },
+    kaucher: {
+        create: {
+            module: 'modules/arithmetic/kaucher'
         }
     },
     calculator: {
@@ -30,7 +37,7 @@ define({
     calculateView: {
         create: {
             module: 'modules/calculateBlock',
-            args: [{$ref: 'calculator'}]
+            args: [{$ref: 'calculator'}, {$ref: 'calcBlock'}]
         }
     }
 });
